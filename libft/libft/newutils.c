@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   newutils.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dravaono <dravaono@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nihamdan <nihamdan@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/11 18:32:33 by dravaono          #+#    #+#             */
-/*   Updated: 2024/07/30 15:50:05 by dravaono         ###   ########.fr       */
+/*   Updated: 2024/09/01 19:59:18 by nihamdan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	free_tab(char **tab)
 	int	i;
 
 	if (!tab)
-		return;
+		return ;
 	i = -1;
 	while (tab[++i])
 		free(tab[i]);
